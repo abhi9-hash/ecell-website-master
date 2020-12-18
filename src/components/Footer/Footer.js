@@ -19,7 +19,7 @@ export default function ProductSection() {
     <div className={classes.description} style={{backgroundColor:"black"}}>
       <GridContainer style={{alignItems:"center"}} className={classes.section1}>
         <GridItem xs={12} sm={12} md={12}>
-          <h3 className={classes.title} style={{color:"white"}}><img src={image} alt="ecelllogo"  style={{maxWidth:"5%"}}></img>ENTREPRENEURSHIP CELL</h3>
+          <h3 className={classes.title} style={{color:"white"}}><img src={image} alt="ecelllogo"  style={{maxWidth:"5%"}}></img> ENTREPRENEURSHIP CELL</h3>
           <h5 className={classes.description} style={{fontSize:"2.1vh"}}>
             for Collaborations reach us at ecell@iiitm.ac.in
           </h5>
@@ -40,10 +40,8 @@ export default function ProductSection() {
            
             <ul style={{listStyleType:"none"}}>
             <strong>Quick Links:</strong>
-            <li> Home </li>
-            <li> Become CA </li>
-            <li> E-Cell Team </li>
-            <li>  IIIT Gwalior Site </li>
+            
+            <a href="https://www.iiitm.ac.in/index.php/en/">  IIIT Gwalior Site </a>
             </ul>
           </GridItem>
           <GridItem xs={12} sm={12} md={4}>

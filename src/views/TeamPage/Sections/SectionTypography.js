@@ -107,7 +107,10 @@ export default function SectionTypography() {
               </Button> */}
               
               <div className={classes.space50} />
+
             </GridItem>           
+
+            
           </GridContainer>
           <GridContainer>
             

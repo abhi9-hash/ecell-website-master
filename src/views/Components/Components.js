@@ -58,9 +58,9 @@ export default function Components(props) {
 
        <div className={classNames(classes.main)}>
         <About/>
-        <Album/>
+        <div className="events" ><Album /></div>
         <SectionCarousel />
-        <WorkSection/>
+        {/* <WorkSection/>  */}
        </div>     
 
       <Footer />
